@@ -62,6 +62,8 @@ def clean_data(df):
 
     # Drop the duplicates.
     df.drop_duplicates(inplace=True)
+    
+    df = df[~(df["related"] == 2)]
 
     return df
 
