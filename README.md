@@ -38,6 +38,8 @@ We are providing much of the flask web app for you, but feel free to add extra f
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
+If you don't want to train the model, you can download trained model directly at [Google drive](https://drive.google.com/file/d/1sARSy1YsV9Bj2tfeEjtY-oOb9azMBWJ5/view?usp=sharing)
+
 #### 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
